@@ -39,6 +39,10 @@ h6 {
   padding: 0 32px;
 }
 
+.section {
+  padding: 120px 0;
+}
+
 /* Header */
 
 .header-inner {
@@ -155,7 +159,7 @@ h6 {
 
 .principle-list {
   display: flex;
-  gap: 24;
+  gap: 24px;
   padding: 120px 156px;
   flex-basis: calc((100%-72px) / 4);
 }
@@ -241,7 +245,8 @@ h6 {
 
 .portfolio-list {
   display: flex;
-  gap: 24px;
+  flex-wrap: wrap;
+  column-gap: 24px;
 }
 
 .portfolio-section-title {
@@ -252,6 +257,7 @@ h6 {
   letter-spacing: 0.02em;
   text-transform: capitalize;
   text-align: center;
+  margin-bottom: 72px;
 }
 
 .portfolio-title {
