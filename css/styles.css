@@ -19,6 +19,8 @@ ul {
 
 img {
   display: block;
+  max-width: 100%;
+  height: auto;
 }
 
 p,
@@ -113,7 +115,8 @@ h6 {
 }
 
 /* Hero section */
-.hero-section {
+.hero-inner {
+  padding: 188px 472px;
   background-color: #2e2f42; /* TODO: replace with image */
 }
 
@@ -126,11 +129,13 @@ h6 {
   text-align: center;
   margin-bottom: 48px;
   max-width: 496px;
-  margin: 0 auto;
   text-align: center;
 }
 
 .hero-button {
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
   color: #ffffff;
   font-family: inherit;
   font-weight: 500;
@@ -147,6 +152,13 @@ h6 {
 }
 
 /* Principles section */
+
+.principle-list {
+  display: flex;
+  gap: 24;
+  padding: 120px 156px;
+  flex-basis: calc((100%-72px) / 4);
+}
 
 .visually-hidden {
   position: absolute;
@@ -167,6 +179,7 @@ h6 {
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.02em;
+  margin-bottom: 8px;
 }
 
 .principle-text {
@@ -181,8 +194,19 @@ h6 {
   background-color: #f4f4fd;
 }
 
+.team-list {
+  display: flex;
+  gap: 24px;
+  padding: 232px 156px 120px 156px;
+}
+
 .team-item {
   background-color: #ffffff;
+  flex-basis: calc((100%-72px) / 4);
+}
+
+.team {
+  border-radius: 0px 0px 4px 4px;
 }
 
 .team-section-title {
@@ -193,6 +217,7 @@ h6 {
   letter-spacing: 0.02em;
   text-transform: capitalize;
   text-align: center;
+  margin-bottom: 72px;
 }
 
 .team-title {
@@ -201,17 +226,22 @@ h6 {
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.02em;
+  text-align: center;
+  margin-bottom: 8px;
 }
 
 .team-text {
   color: #434455;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  text-align: center;
 }
 
 /* Portfolio section */
 
-.portfolio-section {
+.portfolio-list {
+  display: flex;
+  gap: 24px;
 }
 
 .portfolio-section-title {
@@ -230,6 +260,7 @@ h6 {
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.02em;
+  margin-bottom: 8px;
 }
 
 .portfolio-text {
