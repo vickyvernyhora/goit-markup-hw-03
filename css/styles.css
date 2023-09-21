@@ -34,7 +34,7 @@ h6 {
 }
 
 .container {
-  max-width: 1158px;
+  width: 1158px;
   margin: 0 auto;
   padding: 0 15px;
 }
@@ -160,14 +160,14 @@ h6 {
 
 /* Principles section */
 
+.principle {
+  flex-basis: calc((100% - 72px) / 4);
+}
+
 .principle-list {
   display: flex;
   gap: 24px;
   padding: 120px 156px;
-}
-
-.principle {
-  width: calc((100% - 72px) / 4);
 }
 
 .visually-hidden {
@@ -199,6 +199,10 @@ h6 {
 }
 
 /* Team section */
+.team-section {
+  padding: 120px 0;
+  background-color: #f4f4fd;
+}
 
 .team {
   background-color: #f4f4fd;
