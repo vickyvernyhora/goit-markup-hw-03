@@ -170,7 +170,6 @@ h6 {
 .principle-list {
   display: flex;
   gap: 24px;
-  padding: 120px 156px;
 }
 
 .visually-hidden {
@@ -213,7 +212,6 @@ h6 {
 .team-list {
   display: flex;
   gap: 24px;
-  padding: 232px 156px 120px 156px;
 }
 
 .team-item {
