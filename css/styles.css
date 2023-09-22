@@ -39,7 +39,10 @@ h6 {
   padding: 0 15px;
 }
 
-.section {
+.hero-section,
+.principles-section,
+.team-section,
+.portfolio-section {
   padding: 120px 0;
 }
 
@@ -61,8 +64,6 @@ h6 {
 .header-nav {
   display: flex;
   align-items: center;
-  flex-grow: 1;
-  gap: 40px;
 }
 
 .logo-header {
@@ -105,6 +106,7 @@ h6 {
 
 .address {
   font-style: normal;
+  margin-left: auto;
 }
 
 .address-item {
@@ -201,7 +203,6 @@ h6 {
 
 /* Team section */
 .team-section {
-  padding: 120px 0;
   background-color: #f4f4fd;
 }
 
