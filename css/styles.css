@@ -65,7 +65,7 @@ h6 {
   gap: 40px;
 }
 
-.logo {
+.logo-header {
   display: block;
   align-items: center;
   color: #4d5ae5;
@@ -84,12 +84,13 @@ h6 {
 
 .nav-list {
   display: flex;
+  align-items: center;
   justify-content: center;
   gap: 40px;
 }
 
 .nav-link {
-  display: inline-block;
+  display: flex;
   padding: 24px 0;
   color: #2e2f42;
   font-weight: 500;
